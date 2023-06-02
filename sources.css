@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #333;
+}
+header{
+  height:18vh;
+}
+.nav {
+  float:right;
+  list-style-type: none;
+  margin: 5vh 3vw;
+}
+.nav1 {
+  display: inline-block;
+  margin: 1.5vh;
+}
+.nav2 {
+  text-decoration: none;
+  color: #fff;
+  padding: 1vh;
+  border: 1vh transparent;
+  border-radius: 1.3vh;
+  font-size: 3vh;
+  transition: .5s;
+  
+}
+.nav2:hover {
+  background-color:#fff;
+  color: #333;
+}
+.main {
+  max-width: 1240vh;
+  margin: auto;
+}
+.images{
+
+}
+.frpk{
+  margin: 10vh 1vh;
+  margin-bottom: 1vh;
+  border-radius: 1vh;
+  width:10%;
+  height: 15%;
+  padding: 0%;
+}
+.h3{
+  color: #fff;
+  font-size: 3vh;
+}

@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-image: url('img/bimg 5.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Yanone Kaffeesatz",sans-serif;
+}
+header{
+  height: 13vh;
+}
+ul {
+  float:right;
+  list-style-type: none;
+  margin: 5vh 3vw;
+}
+ul li {
+  display: inline-block;
+  margin: 1.5vh;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1vh;
+  border: 1vh transparent;
+  border-radius: 1.3vh;
+  font-size: 3vh;
+  transition: .5s;
+  
+}
+ul li a:hover {
+  background-color:#fff;
+  color: #333;
+}
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.aikido{
+  color: #fff;
+  display: inline-block;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  padding-bottom: 7vh;
+  margin-top: 8vh;
+  font-size: 4vh;
+  font-weight: 400;
+  text-align: justify;
+
+}
+.head{
+  color: #fff;
+  display: inline-block;
+  padding-left: 6vh;
+  margin-top: 10vh;
+  font-size: 9vh;
+}
